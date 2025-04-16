@@ -18,6 +18,9 @@ import asyncio
 import nest_asyncio
 import warnings
 from langchain_groq import ChatGroq
+from huggingface_hub import login
+login(token="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")
+
 
 warnings.filterwarnings('ignore', category=UserWarning, module='torch')
 
